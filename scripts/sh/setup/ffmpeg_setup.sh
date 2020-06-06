@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# from: https://www.raspberrypi.org/forums/viewtopic.php?f=38&t=199775&sid=9941a4149ea1017aaf0bb87f4fc9287a
+
 ##### Vidware_Downloads: My script philosophy is to keep things clean and simple. That's why my first step is to create 3 different folders to keep the main elements of my script completely separate from each other. Before anything can be built, we first have to download 6 files in the form of "stable release tarballs". This is the raw source code my script will use to build the 6 programs. We also need 4 GPU-related files from the Raspberry Pi Foundation's official GitHub site that provide OpenGL ES and EGL support (they allow mpv to "talk" to the Raspberry's VideoCore GPU and thus facilitate hardware acceleration). All of this will go inside the "Vidware_Downloads" folder – which we're creating with the mkdir command:
 mkdir Vidware_Downloads
 
